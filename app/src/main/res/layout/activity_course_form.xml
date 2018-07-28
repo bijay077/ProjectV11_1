@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CourseForm">
+
+    <TextView
+        android:id="@+id/tvCourseID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/course_id" />
+
+    <TextView
+        android:id="@+id/tvCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/course_name" />
+
+    <EditText
+        android:id="@+id/etCourseLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="number"
+        android:text="@string/course_level" />
+
+    <TextView
+        android:id="@+id/preRequisite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/pre_requisite" />
+
+    <Button
+        android:id="@+id/btnSubmitCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="btnSubmitCourse"
+        android:text="@string/btn_submit"
+        android:textStyle="bold" />
+
+</LinearLayout>

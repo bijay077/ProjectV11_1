@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProjectV1.1</string>
+    <string name="course_id">Please enter the courseID</string>
+    <string name="course_name">Please enter the course name</string>
+    <string name="course_level">Please enter the course level</string>
+    <string name="pre_requisite">Please enter the pre-requisite if any</string>
+    <string name="btn_submit">submit</string>
+</resources>
